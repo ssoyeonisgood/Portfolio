@@ -11,28 +11,28 @@ const data = [
         image: IMG1,
         title: 'QuizApp',
         github: "https://github.com/ssoyeonisgood/quizeApp",
-        demo: "https://dribble.com/Alien_pixels"
+        demo: "https://ssoyeonisgood.github.io/QuizApp/"
     },
     {
         id: 2,
         image: IMG2,
         title: 'ToDoList',
         github: "https://github.com/ssoyeonisgood/to_do_list",
-        demo: "https://dribble.com/Alien_pixels"
+        demo: "https://ssoyeonisgood.github.io/ToDoList/"
     },
     {
         id: 3,
         image: IMG3,
         title: 'RecipeApp',
         github: "https://github.com/ssoyeonisgood/recipeApp",
-        demo: "https://dribble.com/Alien_pixels"
+        demo: "https://ssoyeonisgood.github.io/RecipeApp/"
     },
     {
         id: 4,
         image: IMG4,
         title: 'My Journal',
         github: "https://github.com/ssoyeonisgood/MyJournal",
-        demo: "https://dribble.com/Alien_pixels"
+        demo: ""
     }
 ]
 
