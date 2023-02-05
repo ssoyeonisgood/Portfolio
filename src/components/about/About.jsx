@@ -46,7 +46,7 @@ const About = () => {
                     I completed various assignments based on them and got a score of 85.50.
                     </p>
                     <p className='about__introduce'>
-                    During the vacation from last October, I learned JavaScript and React through self-study and created various projects. 
+                    During the vacation from last October, I learned JavaScript and React by creating various projects. 
                     However, I realized that there is a limit to study coding by myself. 
                     Therefore, I really want to learn and experience more by getting some real world experience.
                     </p>

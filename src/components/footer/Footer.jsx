@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import {FiFacebook} from 'react-icons/fi'
 import {GrInstagram} from 'react-icons/gr'
-import {TbBrandTwitter} from 'react-icons/tb'
+import {FiLinkedin} from 'react-icons/fi'
 
 const Footer = () => {
     return (
@@ -18,6 +18,7 @@ const Footer = () => {
             <div className='footer__socials'>
                 <a href="https://www.facebook.com/profile.php?id=100001908471483"><FiFacebook/></a>
                 <a href="https://www.instagram.com/soyeonisgood/"><GrInstagram/></a>
+                <a href="https://www.linkedin.com/in/soyeon-kim-727147251/"><FiLinkedin/></a>
             </div>
             <div className="footer__copyright">
                 <small>&copy; Soyeon's Portfolio</small>

@@ -2,8 +2,8 @@ import React from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsMessenger} from 'react-icons/bs'
-import {IoLogoWhatsapp} from 'react-icons/io'
 import { useRef } from 'react';
+import {BsLinkedin} from 'react-icons/bs'
 import emailjs from 'emailjs-com';
 
 
@@ -33,6 +33,12 @@ const Contact = () => {
                         <h4>Messenger</h4>
                         <h5>Soyeon Kim</h5>
                         <a href="https://m.me/profile.php?id=100001908471483" target='_blank' rel="noreferrer">Send a Message</a>
+                    </article>
+                    <article className='contact__option'>
+                        <BsLinkedin className='contact__option-icn'/>
+                        <h4>Linkedin</h4>
+                        <h5>Soyeon Kim</h5>
+                        <a href="https://www.linkedin.com/in/soyeon-kim-727147251/" target='_blank' rel="noreferrer">Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
